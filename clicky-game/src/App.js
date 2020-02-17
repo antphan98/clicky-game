@@ -1,12 +1,24 @@
 import React from 'react';
-import Card from "./components/Card";
+import {
+Card,
+Wrapper,
+Header
+} from './components';
 import cards from "./images.json";
 
 const App = () => {
   return (
-    <div className = "hello">
-      <h1>Hello</h1>
-    </div>
+    <Wrapper>
+        <Header score={this.state.score} highscore={this.state.highscore}>Clicky Game</Header>
+        {this.state.cards.map(card => (
+          <Card
+            clickCount={this.clickCount}
+            id={card.id}
+            key={card.id}
+            image={card.image}
+          />
+        ))}
+      </Wrapper>
   );
 }
 
