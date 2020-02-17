@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "name": "Grizz",
+      "image": "../images/grizz1.png"
+
+    },
+    {
+      "id": 2,
+      "name": "Grizz1",
+      "image": "../images/grizz.png"
+
+    },
+    {
+      "id": 3,
+      "name": "Grizz2",
+      "image": "../images/grizz2.png"
+
+    },
+    {
+      "id": 4,
+      "name": "Grizz3",
+      "image": "../images/grizz3.png"
+
+    },
+    {
+      "id": 5,
+      "name": "Icebear",
+      "image": "../images/icebear.jpg"
+
+    },
+    {
+      "id": 6,
+      "name": "IceBearr",
+      "image": "../images/icebear.png"
+
+    },
+    {
+      "id": 7,
+      "name": "Icebear1",
+      "image": "../images/icebear1.png"
+
+    },
+    {
+      "id": 8,
+      "name": "Icebear2",
+      "image": "../images/icebear2.png"
+
+    },
+    {
+      "id": 9,
+      "name": "Panpan1",
+      "image": "../images/panpan1.jpg"
+
+    },
+    {
+      "id": 10,
+      "name": "Pan",
+      "image": "../images/pan.jpg"
+
+    },
+    {
+      "id": 11,
+      "name": "Panpan",
+      "image": "../images/panpan.jpg"
+
+    },
+    {
+      "id": 12,
+      "name": "Panpann",
+      "image": "../images/panpan.png"
+
+    }
+  ]
+  
