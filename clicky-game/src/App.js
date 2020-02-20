@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
-import cards from "./images.json";
 import Header from "./components/Header";
+import cards from "./images.json";
 
 class App extends Component {
 
@@ -18,7 +18,6 @@ class App extends Component {
 <Header score={this.state.score} highscore={this.state.highscore}>Bare Bears Clicky Game</Header>       
  {this.state.cards.map(card => (
           <Card
-            clickCount={this.clickCount}
             id={card.id}
             image={card.image}
           />
