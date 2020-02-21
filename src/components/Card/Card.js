@@ -16,7 +16,7 @@ const Card = ({
 }) => (
     <div className="card">
       <div className="img-container">
-        <img alt={name} src={image} />
+        <img alt={name} src={image} id={id}/>
       </div>
     </div>
   );
