@@ -30,6 +30,19 @@ class App extends Component {
     });
   };
 
+  endGame = () => {
+    if (this.state.score > this.state.highscore) {
+      this.setState({highscore: this.state.score}, function() {
+        console.log(this.state.highscore);
+      });
+    }
+    this.state.cards.forEach(card => {
+      card.count = 0;
+    });
+      this.setState({score: 0});
+      return true;
+  }
+
   render() {
     return (
       <Wrapper>
