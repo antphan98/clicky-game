@@ -20,10 +20,11 @@ class App extends Component {
           this.setState({score: this.state.score + 1}, function() {
             console.log(this.state.score);
           });
-          this.state.cards.sort(() => Math.random() - 1)
+          this.state.cards.sort(() => Math.random() - 0.3)
           return true;
         } else {
           this.endGame();
+          alert("You clicked the same card twice! Try again!");
         }
       };
 

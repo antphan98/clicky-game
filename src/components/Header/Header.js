@@ -12,13 +12,7 @@ const Header = props => (
       </div>
   </div>
 
-//   <nav className="navbar navbar-light bg-light">
-//     <a class="navbar-brand title">{props.children}</a>
-//     <div className="scores">
-//       Score: {props.score}
-//       High Score: {props.highscore}
-//     </div>
-//   </nav>;
+
 );
 
 export default Header;
